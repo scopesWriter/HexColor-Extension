@@ -10,6 +10,8 @@
 import Foundation
 import UIKit
 
+//Sometimes we want to display a one-tone placeholder for the UIImageView, but we need to provide a specific asset for this. What if we could create an image using a specific color?
+
 extension UIImage {
     
     convenience init?(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) {

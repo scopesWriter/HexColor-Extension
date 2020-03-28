@@ -7,6 +7,8 @@
 //  Copyright © 2020 Bishoy wadie. All rights reserved.
 //
 
+//Now we can access the text field without worrying about the specific iOS version because everything is done behind the scenes
+
 import Foundation
 import UIKit
 

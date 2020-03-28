@@ -10,6 +10,8 @@
 import Foundation
 import UIKit
 
+//We sometimes need to display prices in our apps. But a value with no spaces (e.g., 235000) doesn’t look very nice, so we may want to insert a separator inside the number. This short extension allows us to do it very easily
+
 extension Numeric {
     var formattedWithSeparator: String {
         let formatter = NumberFormatter()

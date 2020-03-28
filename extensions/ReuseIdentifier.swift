@@ -10,6 +10,8 @@
 import Foundation
 import UIKit
 
+//Now we are able to access a reuseIdentifier directly from the UITableViewCell or UICollectionViewCell subclass
+
 protocol ReuseIdentifiable {
     static func reuseIdentifier() -> String
 }
